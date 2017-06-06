@@ -118,3 +118,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# GeoDjango to be able to find the SpatiaLite library
+# https://docs.djangoproject.com/ja/1.11/ref/contrib/gis/install/spatialite/#spatialite-macos
+SPATIALITE_LIBRARY_PATH='/usr/local/lib/mod_spatialite.dylib'
